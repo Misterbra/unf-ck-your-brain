@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -19,9 +20,9 @@ export default function Footer() {
       </a>
 
       <a href="https://ko-fi.com/G2G6ZJZ0K" target="_blank" rel="noopener noreferrer">
-        <img
-          height="36"
-          style={{ border: 0, height: '36px' }}
+        <Image
+          height={36}
+          width={36}
           src="https://storage.ko-fi.com/cdn/kofi2.png?v=3"
           alt="Buy Me a Coffee at ko-fi.com"
         />

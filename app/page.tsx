@@ -126,7 +126,7 @@ export default function Home() {
               <strong>Get Your API Key:</strong> Once you have signed up, you will receive an API key that you can use to access the ChatGPT API.
             </li>
             <li className="mb-2">
-              <strong>Enter API Key:</strong> In the form above, select &apos;ChatGPT (API)&apos; and enter your API key. This allows you to use the ChatGPT model without needing a powerful computer, as all computations are done on OpenAI's servers.
+              <strong>Enter API Key:</strong> In the form above, select &apos;ChatGPT (API)&apos; and enter your API key. This allows you to use the ChatGPT model without needing a powerful computer, as all computations are done on OpenAI&lsquo;s servers.
             </li>
           </ol>
           <p className="mt-4">
