@@ -1,94 +1,89 @@
 
-# Les Chroniques de Lyra
+# Unf*ck Your Brain
 
-![Lyra](./public/images/lyra_world.jpg)
+Welcome to **Unf*ck Your Brain**, an interactive project designed to help users overcome distractions, clarify their goals, and adopt a healthy lifestyle to achieve their ambitions.
 
+## Project Description
 
-Bienvenue dans **Les Chroniques de Lyra**, un projet immersif qui combine aventure fantastique et introspection personnelle. Ce projet est destiné aux personnes en reconversion professionnelle et aux élèves cherchant à découvrir leur véritable quête et passion dans la vie.
+Unf*ck Your Brain is an interactive application where users are guided by Elyan, a personal AI coach. Through immersive interactions, Elyan helps users explore their distractions, clearly define their goals, and adopt healthy lifestyle habits.
 
-## Description du Projet
+## Features
 
-Les Chroniques de Lyra est une application interactive où les utilisateurs sont guidés par Elyan, un sage spirituel d'un monde fantastique appelé Lyra. À travers des interactions immersives, Elyan aide les utilisateurs à explorer leurs valeurs, passions et motivations profondes pour trouver un sens profond à leur existence.
-
-## Fonctionnalités
-
-- **Interaction immersive** avec Elyan, le guide spirituel.
-- **Exploration de quêtes** et découvertes de missions personnelles.
-- **Intégration d'un modèle 3D** pour une expérience plus riche.
-- **Utilisation d'une API de traitement de langage naturel** pour des réponses intelligentes et adaptées.
+- **Immersive interaction** with Elyan, the personal AI coach.
+- **Quest exploration** and discovery of personal missions.
+- **Natural Language Processing API integration** for intelligent and tailored responses.
 
 ## Installation
 
-Suivez ces étapes pour installer et exécuter le projet localement :
+Follow these steps to install and run the project locally:
 
-### Prérequis
+### Prerequisites
 
-- Node.js (version 14 ou supérieure)
-- npm (version 6 ou supérieure) ou yarn
-- LM Studio (version spécifique pour l'API Llama3)
-- Compte OpenAI pour utiliser l'API ChatGPT (si nécessaire)
+- Node.js (version 14 or higher)
+- npm (version 6 or higher) or yarn
+- LM Studio (specific version for the Llama3 API)
+- OpenAI account to use the ChatGPT API (if necessary)
 
-### Cloner le dépôt
+### Clone the repository
 
 ```bash
-git clone https://github.com/Misterbra/Les-Chroniques-de-Lyra
-cd les-chroniques-de-lyra
+git clone https://github.com/Misterbra/unf-ck-your-brain
+cd unf-ck-your-brain
 ```
 
-### Installer les dépendances
-Utilisez npm ou yarn pour installer les dépendances :
+### Install dependencies
+Use npm or yarn to install dependencies:
 
 ```bash
 npm install
-# ou
+# or
 yarn install
 ```
 
 ### Configuration
-Pas besoin d'avoir un fichier .env à la racine du projet pour les clés API et autres configurations.
-Utiliser votre clé OpenAI directement ou utiliser un modèle local.
+No need to have an .env file at the root of the project for API keys and other configurations.
+Use your OpenAI key directly or use a local model.
 
-### Lancer LM Studio
-Si vous utilisez Llama3 avec LM Studio, assurez-vous de lancer LM Studio avant de démarrer l'application. 
+### Start LM Studio
+If you are using Llama3 with LM Studio, make sure to start LM Studio before starting the application.
 
-Voici les étapes pour démarrer LM Studio :
-1. Téléchargez et installez LM Studio depuis LM Studio.
-2. Configurez LM Studio avec le modèle Meta-Llama-3-8B-Instruct-GGUF.
-3. Lancez LM Studio et assurez-vous qu'il écoute sur le port 1234 (ou configurez le port dans le fichier .env).
+Here are the steps to start LM Studio:
+1. Download and install LM Studio from LM Studio.
+2. Configure LM Studio with the Meta-Llama-3-8B-Instruct-GGUF model.
+3. Start LM Studio and ensure it is listening on port 1234 (or configure the port in the .env file).
 
-### Lancer l'application
+### Start the application
 
-Pour démarrer l'application en mode développement, exécutez :
+To start the application in development mode, run:
 
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-Ouvrez [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+Open [http://localhost:3000](http://localhost:3000) to see the application in your browser.
 
-### Utilisation
-- **Page d'accueil** : Entrez votre nom et choisissez votre fournisseur d'API pour commencer l'aventure.
-- **Quêtes** : Interagissez avec Elyan pour explorer vos passions et découvrir des missions significatives.
-- **Profil** : Suivez vos progrès et les quêtes que vous avez découvertes.
+### Usage
+- **Home page**: Enter your name and choose your API provider to start the adventure.
+- **Quests**: Interact with Elyan to explore your passions and discover meaningful missions.
+- **Profile**: Track your progress and the quests you have discovered.
 
 ### Contribution
 
-Les contributions sont les bienvenues ! Si vous souhaitez contribuer, veuillez suivre ces étapes :
-1. Forkez le projet.
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalité`).
-3. Commitez vos modifications (`git commit -m 'Ajouter ma fonctionnalité'`).
-4. Poussez vers la branche (`git push origin feature/ma-fonctionnalité`).
-5. Ouvrez une Pull Request.
+Contributions are welcome! If you wish to contribute, please follow these steps:
+1. Fork the project.
+2. Create a branch for your feature (`git checkout -b feature/my-feature`).
+3. Commit your changes (`git commit -m 'Add my feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Open a Pull Request.
 
-### Auteur
-MisterBra - Développeur principal - [Profil GitHub](https://github.com/Misterbra)
+### Author
+MisterBra - Lead Developer - [GitHub Profile](https://github.com/Misterbra)
 
 ### License
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Remerciements
-- OpenAI pour l'API de traitement de langage naturel.
-- Spline pour l'outil de création de modèles 3D.
-- Next.js pour le framework de développement.
+### Acknowledgments
+- OpenAI for the Natural Language Processing API.
+- Next.js for the development framework.
