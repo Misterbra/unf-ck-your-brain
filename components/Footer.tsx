@@ -20,13 +20,9 @@ export default function Footer() {
       </a>
 
       <a href="https://ko-fi.com/G2G6ZJZ0K" target="_blank" rel="noopener noreferrer">
-        <Image
-          height={36}
-          width={36}
-          src="https://storage.ko-fi.com/cdn/kofi2.png?v=3"
-          alt="Buy Me a Coffee at ko-fi.com"
-        />
-      </a>
+  Buy Me a brain
+</a>
+
     </footer>
   );
 }
