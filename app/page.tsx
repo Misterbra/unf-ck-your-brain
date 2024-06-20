@@ -136,10 +136,6 @@ export default function Home() {
         </div>
       )}
 
-
-      <p className="mt-4 text-center">
-      Download <a href="https://lmstudio.ai/" target="_blank" style={{ color: '#FFFFFF', textDecoration: 'underline' }}>LM Studio</a>
-    </p>
     </div>
   );
 }
