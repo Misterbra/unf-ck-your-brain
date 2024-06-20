@@ -111,10 +111,10 @@ export default function Home() {
               <strong>Set Up Llama3:</strong> Select Llama3 as the model you want to use. Make sure to configure the port to 1234. This allows you to run the AI model locally on your computer without any cost.
             </li>
             <li className="mb-2">
-              <strong>Start the Server:</strong> Click the 'Start Server' button to launch the Llama3 server. You should see a confirmation message indicating that the server is running.
+              <strong>Start the Server:</strong> Click the &apos;Start Server&apos; button to launch the Llama3 server. You should see a confirmation message indicating that the server is running.
             </li>
             <li className="mb-2">
-              <strong>Connect Your Application:</strong> In the application setup, select 'Llama3 locally with LM Studio' and ensure the port is set to 1234.
+              <strong>Connect Your Application:</strong> In the application setup, select &apos;Llama3 locally with LM Studio&apos; and ensure the port is set to 1234.
             </li>
           </ol>
           <h2 className="text-2xl font-bold mb-4 mt-8">Using ChatGPT API</h2>
@@ -126,7 +126,7 @@ export default function Home() {
               <strong>Get Your API Key:</strong> Once you have signed up, you will receive an API key that you can use to access the ChatGPT API.
             </li>
             <li className="mb-2">
-              <strong>Enter API Key:</strong> In the form above, select 'ChatGPT (API)' and enter your API key. This allows you to use the ChatGPT model without needing a powerful computer, as all computations are done on OpenAI's servers.
+              <strong>Enter API Key:</strong> In the form above, select &apos;ChatGPT (API)&apos; and enter your API key. This allows you to use the ChatGPT model without needing a powerful computer, as all computations are done on OpenAI's servers.
             </li>
           </ol>
           <p className="mt-4">
