@@ -114,7 +114,7 @@ export default function Home() {
         <strong>Démarrez le serveur :</strong> Cliquez sur le bouton &apos;Démarrer le serveur&apos; pour lancer le serveur Llama3. Vous devriez voir un message de confirmation indiquant que le serveur est en cours d'exécution.
       </li>
       <li className="mb-2">
-        <strong>Connectez votre application :</strong> Dans la configuration de l'application, sélectionnez &apos;Llama3 localement avec LM Studio&apos; et assurez-vous que le port est réglé sur 1234.
+        <strong>Connectez votre application : </strong> Dans la configuration de l'application, sélectionnez &apos;Llama3 localement avec LM Studio&apos; et assurez-vous que le port est réglé sur 1234.
       </li>
     </ol>
     <h2 className="text-2xl font-bold mb-4 mt-8">Utilisation de l'API ChatGPT</h2>
